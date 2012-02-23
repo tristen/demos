@@ -21,7 +21,7 @@ var foldedMap = {
 
 $(document).ready(function () {
     if (!jQuery.browser.webkit) {
-        $('#map, .limiter').css('display','none');
+        $('#map, #header, .limiter').css('display','none');
         $('<div/>', {
             'id': 'disclaimer',
             'html': '<h3>Ohhh .. This demo requires a <a href="https://www.google.com/chrome">webkit</a> browser.</h3>'
