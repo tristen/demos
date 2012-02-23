@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Folded Map Example</title>
+</head>
+<link rel='stylesheet' href='site.css' media='all'>
+<body>
+  <div id='header'>
+    <h1>Folded Map demo inspired by <a href='https://news.ycombinator.com/item?id=3369885'>this HN post</a></h1>
+    <p>Uses <a href='http://modestmaps.com'>Modest Maps</a> along with the Natural Earth tileset designed by <a href='http://kelsocartography.com/blog'>Nathan Kelso.</a> Map served by <a href='http://mapbox.com'>MapBox</a></p>
+  </div>
+  <div id='map'></div>
+  <div class='limiter'>
+    <div id='container' class='clearfix'>
+      <div id='mapContainer1' class='mapContainer odd first'></div>
+      <div id='mapContainer2' class='mapContainer even'></div>
+      <div id='mapContainer3' class='mapContainer odd'></div>
+      <div id='mapContainer4' class='mapContainer even'></div>
+      <div id='mapContainer5' class='mapContainer odd'></div>
+      <div id='mapContainer6' class='mapContainer even last'></div>
+    </div>
+  </div>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script src='modestmaps.js'></script>
+<script src='site.js'></script>
+</body>
+</html>
