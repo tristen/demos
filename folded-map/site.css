@@ -76,9 +76,8 @@ img::selection {
 
 #header {
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   left: 20px;
-  z-index: 1000;
   }
 #map,
 .limiter{
@@ -87,7 +86,7 @@ img::selection {
   left: 50%;
   margin: -200px 0 0 -480px;
   position: absolute;
-	top: 35%;
+	top: 30%;
 	z-index: 10;
   }
 #map {
